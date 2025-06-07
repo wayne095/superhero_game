@@ -1,0 +1,17 @@
+html,body{
+    height:100%;
+    margin:0;
+    overflow: hidden;
+  }
+  
+body{
+    /* 只鋪 homebg，無黑罩 */
+    background:url('/homebg.png') center/cover no-repeat fixed;
+    image-rendering:pixelated;
+  
+    /* 置中任何頁面的主內容 */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+  
