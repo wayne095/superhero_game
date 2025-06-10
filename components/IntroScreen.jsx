@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export default function IntroScreen() {
   const router = useRouter();
-  const handleExit = () => typeof window !== 'undefined' && window.close();
+  const handleExit = () => window.location.href = 'https://world-arcade-rho.vercel.app/';
   const handleStart = () => router.push('/game');
 
   return (
