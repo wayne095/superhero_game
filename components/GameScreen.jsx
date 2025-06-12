@@ -7,7 +7,7 @@ import styles from '../styles/GameScreen.module.css';
 /* ---------- 基本常量 ---------- */
 const W = 640, H = 480;
 const HERO = 32, MISSILE = 16, VILLAIN = 32;
-const HERO_BASE = 4, HERO_INC = 0.2;
+const HERO_BASE = 5, HERO_INC = 0.2;
 const HERO_MAX  = 12;                      /* ① 英雄最高速 */
 const OVERLAY_MS = 1200;
 
@@ -17,8 +17,8 @@ const LEVELS = [
   { bg: '/bg2.png', count: 8,  v0: 3.3, accel: 0.008 },
   { bg: '/bg3.png', count: 16, v0: 3.6, accel: 0.010 },
 ];
-const VILLAIN_SPEEDS = [3, 4, 5];
-const MISSILE_MAX = [4, 5, 6];           /* ① 三關飛彈最高速 */
+const VILLAIN_SPEEDS = [4, 5, 6];
+const MISSILE_MAX = [5, 6, 7];           /* ① 三關飛彈最高速 */
 
 const BASE_ORIENT = (3 * Math.PI) / 4;
 const SNAP_STEP   = Math.PI / 12;
