@@ -47,11 +47,6 @@ export default function IntroScreen() {
             border-color:#fff;
             color:#fff;
           }
-          .exit{
-            background:#0066ff;
-            border-color:#0066ff;
-            color:#fff;
-          }
           .btn:hover{
             transform:translateY(-3px);
             box-shadow:0 0 12px #ffffffaa;
