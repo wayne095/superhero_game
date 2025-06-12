@@ -3,7 +3,6 @@ import Head from 'next/head';
 
 export default function IntroScreen() {
   const router = useRouter();
-  const handleExit = () => window.location.href = 'https://world-arcade-rho.vercel.app/';
   const handleStart = () => router.push('/game');
 
   return (
@@ -73,7 +72,6 @@ export default function IntroScreen() {
 
           <div>
             <button className="btn start" onClick={handleStart}>START</button>
-            <button className="btn exit"  onClick={handleExit}>EXIT</button>
           </div>
         </div>
       </div>
